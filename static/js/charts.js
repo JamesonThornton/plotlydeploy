@@ -1,4 +1,5 @@
 function init() {
+  console.log("init_function");
   // Grab a reference to the dropdown select element
   var selector = d3.select("#selDataset");
 
@@ -152,15 +153,6 @@ function buildCharts(sample) {
         }
     }];
 
-    var junkdata = [
-      {
-        domain: { x: [0, 1], y: [0, 1] },
-        value: 270,
-        title: { text: "Speed" },
-        type: "indicator",
-        mode: "gauge+number"
-      }
-    ];
     
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
@@ -168,7 +160,7 @@ function buildCharts(sample) {
     };
 
     // 6. Use Plotly to plot the gauge data and layout.
-    Plotly.newPlot("gauge", junkdata, gaugeLayout);
+    Plotly.newPlot("gauge", gaugeData, gaugeLayout);
   
   });
 }
