@@ -14,6 +14,8 @@ the customermizations I have added to this challenge are:
 - added a paragraph very briefly explaining the page and data
 - customer background color, font style and font color for the demographics data displayed. 
 
+![](static/images/Screen_Clip.png)
+
 ## Results
 
 this was a challenging but rewarding assighment that combined many aspects of HTML and javascript. one particular challenge I ran into was my browser would cache the page/data so that sometimes it would not reflect my updated code. I leanred that 'ctrl+shift+R' will clear the cache and may alleviate some of these issues of non-responsiveness. 
