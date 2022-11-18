@@ -74,7 +74,7 @@ function buildCharts(sample) {
     //var metadata = data.metadata;
     // Filter the data for the object with the desired sample number
     //var result = metadata.filter(sampleObj => sampleObj.id == sample)[0];
-
+    var wash=0
     var wash = metadata[0].wfreq
     // 7. Create the yticks for the bar chart.
     // Hint: Get the the top 10 otu_ids and map them in descending order  

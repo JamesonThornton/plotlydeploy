@@ -1,0 +1,17 @@
+body {
+
+    ;
+  }
+
+.jumbotron {
+    background-image: url("../images/jellybeans.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    color: blanchedalmond;
+  }
+
+.panel_panel-primary{
+  font-family:'Lucida Sans';
+  background-color: black;
+  color: chartreuse;
+}
